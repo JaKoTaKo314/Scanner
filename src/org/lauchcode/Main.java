@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Podaj Swóją wzrost:");
         String inputTall;
         inputTall = scanner.next();
-        double procesTall = Double.parseDouble(inputTall);
+        double procesTall = Double.parseDouble(inputTall); // Test github
         String outTall = String.format ("%.1f", procesTall);
         System.out.println("Podaj Swóją wagę:");
         String inputWeight;
