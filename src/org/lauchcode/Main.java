@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String inputName;
         String inputSurname;
-        String inputTall;
+              String inputTall;
         int inputAge;
         float inputWeight;
 
@@ -16,6 +16,7 @@ public class Main {
         inputName = scanner.next();
 
         System.out.println("Podaj Swoje nazwisko: ");
+
         inputSurname = scanner.next();
 
         System.out.println("Podaj Swój wiek (liczba całkowita):");
@@ -34,6 +35,7 @@ public class Main {
         System.out.print("Nazywasz się : "+inputName+" "+inputSurname+",masz "+inputAge+" lat, masz "+outTall+ " cm wzrosu oraz ważysz ");
         System.out.printf("%.1f", inputWeight);
         System.out.print(" kg");
+
 
 
     }
